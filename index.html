@@ -1,0 +1,56 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+    <link rel="stylesheet" href="./style/navbar.css">
+</head>
+<style>
+  
+</style>
+<body>
+    
+
+    <!-- 
+        <div id="navbar">
+       <h3><a href="/"></a>Home</h3>
+   
+
+    <div id="option">
+
+       <h3><a href="/electronic.html">Electronic</a></h3>
+       <h3><a href="/jewellery.html">Jewellery</a></h3>
+       <h3><a href="/">Signin</a></h3>
+       <h3><a href="/">Signup</a></h3>
+
+    </div>
+     </div> -->
+
+     <div id="container"></div>
+
+</body>
+</html>
+<script type="module">
+    import navbar from "./navbar.js"
+    console.log("navbar",navbar);
+
+    let container=document.getElementById("container");
+
+    container.innerHTML=navbar();
+
+
+
+
+    //0.type=module not adding
+    //1.incorrect file path or extension
+    //2.no export mentioned
+    //3.YOU NEED TO USE LIVE SERVER(HTTP)
+
+
+
+
+
+
+</script>
